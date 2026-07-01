@@ -167,13 +167,17 @@ Create `.env`
 PORT=3000
 
 GEMINI_API_KEY=YOUR_KEY
+GEMINI_MODEL=gemini-2.0-flash
 
 QDRANT_URL=YOUR_QDRANT_URL
 
 QDRANT_API_KEY=YOUR_QDRANT_API_KEY
 
 WEATHER_API_KEY=YOUR_OPENWEATHER_KEY
+ENKRYPT_API_KEY=YOUR_ENKRYPT_KEY
 ```
+
+You can copy `backend/.env.example` to `.env` and fill in your real values locally.
 
 Start the backend
 
